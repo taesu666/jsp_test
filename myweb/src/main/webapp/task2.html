@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>jsp-02과제</title>
+</head>
+<body>
+	<h1>웹 폼 사례</h1>
+	<form action="lunch2.jsp" method="get">
+		<table cellspacing="5" cellpadding="5" border="1">
+			<tr>
+				<td>사용자 이름</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>이메일</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr>
+				<td>검색단어</td>
+				<td><input type="text" name="search"></td>
+			</tr>
+			<tr>
+				<td>취미</td>
+				<td>
+					<input type="checkbox" name="hobby" value="sport">운동
+					<input type="checkbox" name="hobby" value="music">악기 
+					<input type="checkbox" name="hobby" value="travel">여행
+				</td>
+			</tr>
+			<tr>
+				<td>성별</td>
+				<td>
+					<input type="radio" name="gender" value="male">남성 
+					<input type="radio" name="gender" value="female">여성
+				</td>
+			</tr>
+			<tr>
+				<td>점심메뉴</td>
+				<td><select name="menu">
+						<option value="jja">짜장면</option>
+						<option value="jjam">짬뽕</option>
+						<option value="boock">볶음밥</option>
+						<option value="tang">탕수육</option>
+						<option value="you">유산슬</option>
+				</select></td>
+			</tr>
+
+		</table>
+		<input type="submit" value="submit">
+
+	</form>
+</body>
+</html>
